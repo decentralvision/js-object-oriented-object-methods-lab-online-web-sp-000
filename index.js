@@ -18,6 +18,6 @@ BoardMember.doCharity = function() {
 }
 // + `releasePressStatement` — returns `You will see great things from Scuber.`
 BoardMember.releasePressStatement = function() {
-  return "I like to help people."
+  return "You will see great things from Scuber."
 }
 // + `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
