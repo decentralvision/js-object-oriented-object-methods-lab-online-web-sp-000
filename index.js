@@ -17,5 +17,7 @@ BoardMember.doCharity = function() {
   return "I like to help people."
 }
 // + `releasePressStatement` — returns `You will see great things from Scuber.`
-//
+BoardMember.releasePressStatement = function() {
+  return "I like to help people."
+}
 // + `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
