@@ -10,10 +10,12 @@ BoardMember.veto = function() {
 }
 // + `approve` — returns `You can do that!`
 BoardMember.approve = function() {
-  return "No, I must disagree"
+  return "You can do that!"
 }
 // + `doCharity` — returns `I like to help people.`
-//
+BoardMember.doCharity = function() {
+  return "I like to help people."
+}
 // + `releasePressStatement` — returns `You will see great things from Scuber.`
 //
 // + `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
