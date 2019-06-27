@@ -1,9 +1,9 @@
 // In `index.js`, write a constructor function called `BoardMember` that sets the following properties: `name`, `homeState`, and `training`.
 
 const BoardMember = function(name, homeState, training) {
-  self.name = name
-  self.homeState = homeState
-  self.training = training
+  this.name = name
+  this.homeState = homeState
+  this.training = training
 }
 // Add following methods to the class:
 // + `veto` — returns `No, I must disagree`
