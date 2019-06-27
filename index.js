@@ -9,7 +9,9 @@ BoardMember.veto() = function() {
   return "No, I must disagree"
 }
 // + `approve` — returns `You can do that!`
-//
+BoardMember.approve() = function() {
+  return "No, I must disagree"
+}
 // + `doCharity` — returns `I like to help people.`
 //
 // + `releasePressStatement` — returns `You will see great things from Scuber.`
