@@ -4,7 +4,6 @@ const BoardMember = function (name, homeState, training) {
   self.name = name
   self.homeState = homeState
   self.training = training
-
 }
 // Add following methods to the class:
 // + `veto` — returns `No, I must disagree`
