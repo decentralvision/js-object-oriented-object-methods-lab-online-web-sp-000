@@ -22,5 +22,5 @@ BoardMember.releasePressStatement = function() {
 }
 // + `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
 BoardMember.releasePressStatement = function() {
-  return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.traingin}.`
+  return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 }
