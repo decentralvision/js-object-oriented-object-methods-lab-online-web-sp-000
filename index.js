@@ -5,11 +5,11 @@ const BoardMember = function(name, homeState, training) {
 }
 // Add following methods to the class:
 // + `veto` — returns `No, I must disagree`
-BoardMember.veto() = function() {
+BoardMember.veto = function() {
   return "No, I must disagree"
 }
 // + `approve` — returns `You can do that!`
-BoardMember.approve() = function() {
+BoardMember.approve = function() {
   return "No, I must disagree"
 }
 // + `doCharity` — returns `I like to help people.`
